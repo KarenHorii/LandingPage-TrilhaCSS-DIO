@@ -1,0 +1,55 @@
+#professional-challenges {
+    width: 100%;
+    height: 1191px;
+    border-top: 1px solid #33A8DB;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+#professional-challenges h2 {
+    width: 90%;
+    color: #33A8DB;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 6.08px;
+    text-transform: uppercase;
+}
+
+#professional-challenges img{
+    width: 80%;
+    height: 429px;
+}
+
+#professional-challenges p{
+    width: 90%;
+    color: #FFF;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+}
+
+@media (min-width: 800px) {
+    #professional-challenges h2 {
+        width: 746px;
+    }
+  
+    #professional-challenges img{
+        width: 659px;
+        height: 429px;
+    }
+
+    #professional-challenges p{
+        width: 792px;
+    }
+  }
