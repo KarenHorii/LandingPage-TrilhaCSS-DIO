@@ -53,6 +53,10 @@
     color: #33A8DB;
 }
 
+.module:hover{
+    outline: 4px solid #33A8DB;
+}
+
 @media (min-width: 700px) {
     .module{
         padding: 16px 127px;

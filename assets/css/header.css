@@ -68,4 +68,10 @@
     letter-spacing: 3.36px;
     background: transparent;
     text-transform: uppercase;
+    transition: 0.3s;
+}
+
+.banner button:hover {
+    background-color: #31A8DD;
+    color: #fff;
 }
